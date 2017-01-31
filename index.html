@@ -2,130 +2,11 @@
     <html>
 
     <head>
+	<link rel="stylesheet" type="text/css" href="./css/masterstyles.css">
+	
         <title>My Bio</title>
         <style>
-            * {
-                margin: 0;
-                padding: 0;
-            }
-            html, body {
-                height:100%;
-            }
-            body {
-                min-height:100%;
-                display:flex;
-                flex-direction:column;
-                
-            }
-            .wrapper {
-                flex:1;
-            }
-            .main-header {
-                background-color: #CCC;
-                height: 50px;
-                width: 70%;
-                padding: 5px 15%;
-            }
-            .main-header h1 {
-                line-height: 50px;
-            }
-            .footer {
-                height: 50px;
-                background-color: #CCC;
-            }
-            span.logo {
-                color: blue;
-            }
-            .copyright {
-                color: blue;
-                font-weight: bold;
-                width: 100%;
-                text-align: center;
-                padding: 15px 0;
-            }
-            .box-shadow {
-                box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
-                -webkit-box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
-                -moz-box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
-                -o-box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
-            }
-            .content-top {
-                60%;
-                height: 180px;
-                background-color: #CCC;
-                margin: 10px 0;
-            }
-
-            .content-bio {
-                position: relative;
-                background-color: #AAA;
-                width: 70%;
-                max-width:980px;
-                height: 180px;
-                margin: 0 auto;
-            }
-            .content-bio img {
-                width: 150px;
-                height: 170px;
-                margin: 5px 15px 5px 5px;
-            }
-            .bio-text {
-                position: absolute;
-                top: 5px;
-                left: 170px;
-            }
-            .content-bottom {
-                overflow: auto;
-                width: 70%;
-                max-width: 980px;
-                position: relative;
-                margin: 0 auto;
-            }
-            .sidebar {
-                float: left;
-                background-color: #f1f1f1;
-                width: 25%;
-                height: 500px;
-            }
-
-            .main-content {
-                float: right;
-                background-color: lightblue;
-                width: 71%;
-                height: 500px;
-                padding: 0 2% 0 2%;
-            }
-
-            .sidebar-links {
-                background-color: #f1f1f1;
-            }
-            .sidebar-links li {
-                width: 100%;
-                height: 30px;
-                border: 1px solid #CCC;
-                border-top: 1px solid #FFF;
-            }
-            .sidebar-links a {
-                display: block;
-                padding: 7px;
-                text-decoration: none;
-                transition-duration: 0.7s;
-            }
-            .sidebar-links a:hover {
-                background-color: #CCC;
-                color: #000;
-            }
-			.gallery ul {
-				list-style-type:none;
-			}	
-			.gallery li {
-				margin-right:10px;
-				display:inline;
-			}
-			.gallery img {	
-				width:115px;
-				height:100px;
-			}
+            
         </style>
     </head>
 
@@ -140,8 +21,14 @@
                     <div class="bio-text">
                         <h1>My Biography</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, pharetra venenatis erat nisl duis aliquet. Curabitur tellus imperdiet lacus, urna sed mollis pharetra eleifend doloribus, vehicula maecenas non fusce at sollicitudin erat, metus purus justo mauris tempus in. Tincidunt
-                            et feugiat enim dui lacus, dolor nulla dolor tempor leo maecenas consequat.
+                            Hello, my name is Touhar Fang. As the fourth child of six children and the oldest son, 
+							I am one of two who have chosen the academic pathway.  I truly hope that after completing 
+							this journey by obtaining a Bachelor of Science in Business Administration with an emphasis 
+							in Computer Information System, I will be a role model for my children as well as my other siblings.  
+							As a lost and confused first generation child, it has taken me longer to achieve my objective, 
+							because the first half of my college experience was full of uncertainty and lack of direction. 
+							However, I am happy to say that this will be my last year here at Fresno State, and I will finish my
+							senior year strong.
                         </p>
                     </div>
                 </article>
@@ -150,11 +37,11 @@
                 <aside class="sidebar">
                     <ul class="sidebar-links">
                         <li><a href="http://www.google.com" target="_blank">Google.com</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
+                        <li><a href="https://www.youtube.com" target=" blank">YouTube.com</a></li>
+                        <li><a href="https://www.facebook.com" target=" blank">Facebook.com</a></li>
+                        <li><a href="http://www.NFL.com" target="_blank">NFL.com</a></li>
+                        <li><a href="http://www.ESPN.com" target="_blank">ESPN.com</a></li>
+                        <li><a href="http://www.yahoo.com" target="_blank">Yahoo.com</a></li>
                     </ul>
                 </aside>
                 <article class="main-content">
@@ -173,23 +60,23 @@
 					
 					<table>
 						<tr>
-							<th>car 1</th>
-							<th>car 2</th>
-							<th>car 3</th>
-							<th>car 4</th>
+							<th>Beer</th>
+							<th>Food</th>
+							<th>Sports</th>
+							<th>Cars</th>
 						</tr>
 							
 						<tr>
 							<td><img  src="./images/gallery/1.jpg" alt="car"></td>
-							<td><img  src="./images/gallery/1.jpg" alt="car"></td>
-							<td><img  src="./images/gallery/1.jpg" alt="car"></td>
-							<td><img  src="./images/gallery/1.jpg" alt="car"></td>
+							<td><img  src="./images/gallery/3.jpg" alt="car"></td>
+							<td><img  src="./images/gallery/4.jpg" alt="car"></td>
+							<td><img  src="./images/gallery/7.jpg" alt="car"></td>
 						</tr>
 						<tr>
-							<td><img  src="./images/gallery/1.jpg" alt="car"></td>
-							<td><img  src="./images/gallery/1.jpg" alt="car"></td>
-							<td><img  src="./images/gallery/1.jpg" alt="car"></td>
-							<td><img  src="./images/gallery/1.jpg" alt="car"></td>
+							<td><img  src="./images/gallery/2.jpg" alt="car"></td>
+							<td><img  src="./images/gallery/6.jpg" alt="car"></td>
+							<td><img  src="./images/gallery/5.jpg" alt="car"></td>
+							<td><img  src="./images/gallery/8.jpg" alt="car"></td>
 						</tr>	
 					</table>
                     <div> </div>
